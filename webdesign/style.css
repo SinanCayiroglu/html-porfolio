@@ -32,10 +32,11 @@ float: left;
 margin-right: 50px;
 }
 .card{width: 45%;}
+.logo{width: 10%;}
 @media(max-width:680px){
   h1{text-align: center;font-size: 3.5rem;}
   .card img{width: 100%;}
   .card{width: 100%;
     display: block;
     }
-.logo{width: 100px;}}
+}
