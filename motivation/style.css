@@ -1,0 +1,14 @@
+
+h1{font-family: "Libre Baskerville", serif;
+    text-transform: uppercase;}
+div{color: white;
+text-align: center;
+width: 50%;
+margin-left: 25%;
+margin-top: 100px;
+}
+body{background-color: black;}
+.resim{border: 5px white;
+height: 200;
+width: 100%;
+}
