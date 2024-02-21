@@ -14,14 +14,32 @@
       }
 
       /* Hint: What can you do with a media query and flexbox? */
-      @media (max-width: 1250px) {.pricing-container *{flex-direction: column;height: 100%;}
-      .pricing-plan div{color:chartreuse;}
-      .plan-price{font-size: 3rem;}
-      .plan-title{font-size: 2rem;}
-      .pricing-plan{background-color: black;
-      text-align: center;
-    color: aliceblue;}
+      @media (max-width: 1250px) {.pricing-container{flex-direction:column;}}
+      .pricing-container{display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        height: 100vh;
       }
+      .pricing-plan{flex-shrink: 1;
+      flex-grow: 0;
+      flex: 1;
+      background-color: gray;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .plan-title{font-size: 2rem;
+    font-weight: bold;}
+    .plan-price{font-size: 2rem;
+    font-weight: bold;}
+    .plan-features{list-style: none;}
+    .plan-button{background-color: black;
+    color: chartreuse;
+  border-radius: 10px;}
+  body{background-image: url(./background.jpg);}
+  li{text-align: left;}
+     
+   
 
 
     </style>
@@ -33,9 +51,12 @@
         <div class="plan-title">Basic</div>
         <div class="plan-price">$9.99/month</div>
         <ul class="plan-features">
-          <li>✅ 10GB Storage</li>
-          <li>✅ 1 User</li>
-          <li>🚫 Support</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp 100 Websites</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Unlimited Bandwidth</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp 100 GB SSD Storage</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Free Domain</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Unlimited Free SSL</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Weekly Backups</li>
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
@@ -43,9 +64,12 @@
         <div class="plan-title">Standard</div>
         <div class="plan-price">$19.99/month</div>
         <ul class="plan-features">
-          <li>✅ 50GB Storage</li>
-          <li>✅ 5 Users</li>
-          <li>✅ Phone &amp; Email Support</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp 100 Websites</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Unlimited Bandwidth</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp 200 GB SSD Storage</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Free Domain</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Unlimited Free SSL</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Daily Backups</li>
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
@@ -53,9 +77,12 @@
         <div class="plan-title">Premium</div>
         <div class="plan-price">$49.99/month</div>
         <ul class="plan-features">
-          <li>✅ 100GB Storage</li>
-          <li>✅ 10 Users</li>
-          <li>✅ 24/7 Support</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp 300 Websites</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Unlimited Bandwidth</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp 500 GB SSD Storage</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Free Domain</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Unlimited Free SSL</li>
+          <li><span class="tick">✔</span> &nbsp&nbsp Daily Backups</li>
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
