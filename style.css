@@ -4,3 +4,7 @@ h1{color: aliceblue;}
 p{color: #00ff00;}
 ul{color: aquamarine;}
 li{list-style:none;}
+.new {background-color: antiquewhite;}
+.new h1{color: black;}
+.new p{color: black;}
+.new ul{color: black;}
