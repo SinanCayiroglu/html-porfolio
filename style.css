@@ -1,10 +1,31 @@
 body{background-color: black;
-text-align: center;}
+text-align: center;
+margin: 0;
+padding: 0;
+height: 100%;}
+
 h1{color: aliceblue;}
+
 p{color: #00ff00;}
-ul{color: aquamarine;}
-li{list-style:none;}
+
+ul{color:aliceblue;}
+
+li{list-style: none;}
+
+.container {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.navbar ul li{display: inline-block;}
+
+.navbar a{color:aliceblue;
+padding: 10px;}
+
 .new {background-color: antiquewhite;}
 .new h1{color: black;}
 .new p{color: black;}
 .new ul{color: black;}
+.new .navbar a{color:navy;}
+.Matrix{height:0%;
+width:0%;}

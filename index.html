@@ -4,13 +4,24 @@
         <title>My Resume</title>
     </head><link rel="stylesheet" href="./style.css">
     <body>
-                <button>Click Me To Change Css</button><br>
-                <a href="https://sinancayiroglu.github.io/html-porfolio/bootstrap">Direct to my bootstrap portfolio</a>
-
-        <h1>About Me</h1>
+        <canvas class="Matrix" ></canvas>
+        <div class="container">
+            
+            <button class="change-css">Click Me To Change Css</button><br>
+            <button class="add-matrix">Click Me to add matrix effect</button><br>
+		    <a href="https://sinancayiroglu.github.io/html-porfolio/bootstrap">Direct to my bootstrap portfolio</a>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                </ul>
+            </div>
+            <div id="aboutme"><h1>About Me</h1></section>
         <img src="./images/sinan.jpg" height="200">
         <p>Hi i am Sinan Çayıroğlu and this is my HTML resume project.I am 29 years old and i always had a passion for computers and learning since i was a child.I was curious of how computers work and i was mind boggled about why programs crash and how computers get hacked so i wanted to learn programming to understand whys and hows.IT department is growing and evolving each and every year and i love improving myself.</p>
-        <h1>Education</h1>
+         <div id="education"><h1>Education</h1></div>
         <p>2014 - 2015 -
             German translation and interpreting
             Ege University, İzmir</p>
@@ -32,11 +43,11 @@
             University Undergraduate; İstanbul Yeni Yüzyıl
             Üniversitesi, İstanbul</p>
         </p>
-        <h1>Skills</h1>
+        <div id="skills"><h1>Skills</h1></div>
         <ul>
             <li>Python</li>
             <li>HTML</li>
-            <li>Css</li>
+			 <li>Css</li>
             <li>Flexbox</li>
             <li>Grid</li>
             <li>Bootstrap</li>
@@ -45,7 +56,6 @@
             <li>Express.js</li>
             <li>Ejs</li>
             <li>C++</li>
-            <li>C#</li>
             <li>English</li>
             <li>Spanish</li>
             <li>German</li>
@@ -55,18 +65,17 @@
             <li>Fitness</li>
             <li>Boxing</li>
         </ul>
-        <h1>Projects</h1>
+        <div id="projects"><h1>Projects</h1></div>
         <p>2019 - I took part in a university project as a translator and
             editor in the translation of Jordan Peterson's book
             Twelve Rules for Life.</p>
         <p> <a href="./motivation/index.html">Project 1 "Motivation"</a></p>
         <p><a href="./webdesign/index.html">Project 2 Responsive "Web Design"</a></p>
         <p><a href="./Pricing-table/index.html">Project 3 "Pricing Table"</a></p>
-            <a href="./contact.html">Contact Me</a>
-        <footer>
-            <p>© 2024 Sinan</p>
-          </footer>
-                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <a href="./contact.html">Contact Me</a>            <footer>
+                <p>© 2024 Sinan</p>
+              </footer>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
           <script src="index.js"></script>
     </body>
 </html>
